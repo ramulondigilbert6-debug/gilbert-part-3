@@ -1,0 +1,33 @@
+Changelog - Bright Spark Electrical Website
+​All notable changes, bug fixes, feature additions, and development updates for this project are logged sequentially below.
+​[3.0.0] - 2026-11-02 (Part 3 Implementation)
+​Added
+​Interactive FAQ Accordion (js/main.js): Implemented expanding/collapsing accordion sections for client query resolution.
+​Modal Lightbox Gallery (js/main.js): Added click-to-enlarge modal feature (lightbox-trigger) for viewing high-resolution project images.
+​Real-Time Service/Menu Search (js/main.js): Added live text-filtering and category dropdown filtering for pages/menu.html.
+​Leaflet.js Interactive Map (js/main.js): Integrated Leaflet open-source map engine pointing to Arcadia, Pretoria (-25.7479, 28.2293).
+​Client-Side Validation & Cost Calculator (js/validation.js):
+​Configured enquiry.html with price processing (unitPrice * quantity) and urgency multipliers.
+​Implemented regex validation for emails and South African telephone numbers with inline error messages.
+​Mailto: Email Engine (js/validation.js): Formatted dynamic mailto: string links on contact.html for direct email compilation.
+​SEO Assets: Created root-level robots.txt and sitemap.xml files.
+​Platform Deployment: Hosted live application on Netlify platform at https://sweetcrumbsbakery.netlify.app.
+​Changed
+​Header Navigation: Standardized header <nav> markup across index.html and all pages inside pages/.
+​On-Page Meta Tags: Added unique title tags, keyword tags, and meta descriptions across all HTML headers.
+​[2.0.0] - 2026-08-15 (Part 2 CSS & Responsiveness Release)
+​Added
+​External Stylesheet (css/style.css): Linked unified CSS file across all HTML documents.
+​Responsive Media Queries: Implemented CSS Grid and Flexbox breakpoints for Desktop, Tablet, and Mobile viewports.
+​Interactive Pseudo-Classes: Configured :hover, :focus, and :active styling states.
+​[1.2.0] - 2026-08-12
+​Added
+​Integrated industrial electrical and solar photography assets.
+​Added preliminary office map section on contact.html.
+​[1.1.0] - 2026-08-10
+​Added
+​Configured initial quote request inputs on enquiry.html.
+​Added company background, mission, and accreditation details on aboutus.html.
+​[1.0.0] - 2026-08-05
+​Added
+​Initialized Git repository with multi-page HTML semantic structure and cross-linked menu navigation.

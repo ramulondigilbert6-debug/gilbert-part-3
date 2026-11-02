@@ -1,0 +1,6 @@
+# robots.txt for Bright Spark Electrical
+User-agent: *
+Allow: /
+Disallow: /admin/
+
+Sitemap: https://sweetcrumbsbakery.netlify.app/sitemap.xml
