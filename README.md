@@ -1,46 +1,24 @@
-
-# Bright Spark Electrical Website Project
-
-## Project Overview
-This website serves **Bright Spark Electrical**, a qualified electrical contracting firm operating across Limpopo, South Africa. It acts as an interactive portal for requesting quotes, viewing solar installation capabilities, and contacting emergency response electricians 24/7.
-
-## Key Features
-- **HTML5 Semantic Standard:** Formatted using modern HTML5 structural elements (`<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`).
-- **Interactive Quote Engine Form:** Includes service selection and urgency dropdown options for seamless customer inquiry processing.
-- **Service Coverage Map:** Embedded Google Maps frame pinpointing the office in Polokwane Central.
-- **Responsive Navigation:** Consistent navbar layout allowing effortless navigation across all 5 pages.
-
-## Directory Structure
-- `index.html`: Main landing page featuring emergency hotline buttons, service callouts, and key business statistics.
-- `aboutus.html`: Company background, ECA SA affiliations, safety certifications, and staff qualifications.
-- `services.html`: In-depth breakdown of solar power installations, rewiring services, and CoC inspections.
-- `enquiry.html`: Online request-a-quote form equipped with custom inputs and text fields.
-- `contact.html`: Physical location details, office contact numbers, emergency standby lines, and interactive coverage map.
-
-## Technologies
-- HTML5
-- CSS3
-- Git / GitHub Version Control
-
-## References
-- Bright Spark Electrical. 2025. *Company Profile and Safety Certifications*. Polokwane.
-- Electrical Contractors Association SA. 2024. *Digital Marketing Best Practices for Contractors*. Johannesburg: ECA.
-# Bright Spark Electrical Website - Part 2 Implementation
-
-## Project Overview
-This repository contains the multi-page web application for **Bright Spark Electrical**, an electrical contracting firm operating in Polokwane, Limpopo. Part 2 introduces an external CSS3 architecture featuring responsive design patterns, CSS Grid/Flexbox layouts, fluid typography, interactive state styling, and mobile-first media query breakpoints.
-
-## Website Architecture & File Structure
-```text
-bright-spark-electrical/
-├── index.html                 # Root Landing Page
-├── css/
-│   └── style.css              # Universal External Stylesheet
-├── pages/
-│   ├── aboutus.html           # Company Background & Team
-│   ├── menu.html              # Service Packages & Menu
-│   ├── events.html            # Community Workshops & Events
-│   ├── enquiry.html           # Quote Request Form
-│   └── contact.html           # Office Location & Dispatch
-├── CHANGELOG.md               # Version Tracking & Feedback Record
-└── README.md                  # Project Documentation
+Bright Spark Electrical Web Platform — Part 3
+​Welcome to the official web platform repository for Bright Spark Electrical, a premier electrical contracting firm operating across Limpopo, South Africa. Part 3 introduces advanced JavaScript interactive components, dynamic search filtering, client-side & AJAX form validation engines with instant price calculations, comprehensive SEO optimizations (On-Page, Off-Page, robots.txt, and sitemap.xml), and live platform deployment.
+​Deployment & Repository Details
+​Hosted Site URL: https://sweetcrumbsbakery.netlify.app
+​GitHub Repository: Private GitHub repository maintained with regular descriptive commits.
+​4. Key Features & Interactive Functionality
+​CSS Grid & Flexbox Layouts: Multi-column responsive desktop layout switching seamlessly to a stacked single-column design on mobile screens.
+​Interactive FAQ Accordion: JavaScript-powered expandable sections for frequent customer questions and technical compliance specifications.
+​Modal Lightbox Gallery: Click-to-enlarge modal window for viewing high-resolution project, equipment, and showroom imagery.
+​Real-Time Menu Search & Filtering: Instant text-filtering for electrical service packages and products on pages/menu.html.
+​Leaflet.js Map Integration: Interactive map centered on Arcadia, Pretoria (-25.7479, 28.2293) showing the physical location and service coverage region.
+​Client-Side Form Validation & Calculations:
+​enquiry.html: Validates inputs and calculates unitPrice * quantity total with immediate output UI feedback and urgency multipliers.
+​contact.html: Validates contact fields and opens the client's default email software via dynamically formatted mailto: links.
+​5. SEO & Deployment Implementation
+​On-Page SEO: Configured descriptive meta titles, meta descriptions, target keywords, semantic HTML5 tags (<header>, <nav>, <main>, <section>, <article>, <footer>), and accessible alt attributes across all images.
+​Off-Page / Crawler Files: Included root robots.txt for search crawler guidance and sitemap.xml mapping all public pages.
+​Live Deployment: Hosted on Netlify platform for global accessibility and optimum page load performance.
+​6. Academic References
+​Canva. (2026). Design inspiration and visual elements for branding. Available at: https://www.canva.com/ [Accessed 1 Aug. 2026].
+​Leaflet JS. (2026). An open-source JavaScript library for mobile-friendly interactive maps. Available at: https://leafletjs.com/ [Accessed 1 Aug. 2026].
+​MDN Web Docs. (2025). HTML, CSS, and JavaScript documentation. Mozilla Developer Network. Available at: https://developer.mozilla.org/ [Accessed 1 Aug. 2026].
+​Sweet Crumbs Pops Bakery. (2026). Sweet Crumbs Pops Bakery products and services. Pretoria, South Africa.
+​W3Schools. (2026). HTML, CSS and JavaScript documentation. Available at: https://www.w3schools.com/ [Accessed 1 Aug. 2026].
